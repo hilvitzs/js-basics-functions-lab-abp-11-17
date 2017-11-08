@@ -14,5 +14,7 @@ function distanceTravelledInFeet(start, end) {
 function calculatesFarePrice(start, end) {
   let fareDistance = Math.abs(start - end) * 264;
 
-  if (fareDistance < )
+  if (fareDistance <= 400) {
+    return 
+  }
 }

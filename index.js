@@ -12,13 +12,13 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-  let fareDistance = Math.abs(start - end) * 264;
+  let fareDistance = distanceTravelledInFeet(start, end)
 
   let fare;
 
-  if (fareDistance <= 400) {
-    return fare = 0;
-  } else if (fareDistance > 400 && fareDistance <= 2000) {
-    return fare = 
-  }
+  // if (fareDistance <= 400) {
+  //   return fare = 0;
+  // } else if (fareDistance > 400 && fareDistance <= 2000) {
+  //   return fare = .02 * distanceTravelledInFeet(fareDistance)
+  // }
 }
